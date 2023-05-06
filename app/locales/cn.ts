@@ -133,7 +133,7 @@ const cn = {
     },
     Token: {
       Title: "合作热线",
-      SubTitle: "招商代理 人才招聘 企业对接",
+      SubTitle: "人才招聘企业对接",
       Placeholder: "z552041",
     },
 
