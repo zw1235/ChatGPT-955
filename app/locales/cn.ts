@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码。",
+      "现在是未授权状态，请点主页下方[小程序](/#/settings)获取“访问秘钥”成功获取后，打开设置按钮输入秘钥即可开始使用。本网站（仅供学习交流）使用过程中请遵守社会法律法规，如有违规行为我们将立即停止使用资格！",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -27,9 +27,9 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全";
+      return inputHints + "高效沟通";
     },
-    Send: "发送",
+    Send: "发生",
     Config: {
       Reset: "重置默认",
       SaveAs: "另存为面具",
@@ -67,7 +67,7 @@ const cn = {
       ConfirmClearAll: "确认清除所有数据？",
     },
     Lang: {
-      Name: "Language",
+      Name: "语言",
       All: "所有语言",
       Options: {
         cn: "简体中文",
@@ -132,9 +132,9 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      Title: "合作热线",
+      SubTitle: "招商代理 人才招聘 企业对接",
+      Placeholder: "z552041",
     },
 
     Usage: {
@@ -147,27 +147,27 @@ const cn = {
       NoAccess: "输入 API Key 或访问密码查看余额",
     },
     AccessCode: {
-      Title: "访问密码",
+      Title: "访问秘钥",
       SubTitle: "已开启加密访问",
-      Placeholder: "请输入访问密码",
+      Placeholder: "请输入访问密钥",
     },
-    Model: "模型 (model)",
+    Model: "模型",
     Temperature: {
-      Title: "随机性 (temperature)",
+      Title: "随机性",
       SubTitle: "值越大，回复越随机",
     },
     MaxTokens: {
-      Title: "单次回复限制 (max_tokens)",
+      Title: "单次回复限制",
       SubTitle: "单次交互所用的最大 Token 数",
     },
     PresencePenlty: {
-      Title: "话题新鲜度 (presence_penalty)",
+      Title: "话题新鲜度",
       SubTitle: "值越大，越有可能扩展到新话题",
     },
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "你好！我是基于openAI人工智能技术驱动的自然语言处理模型，我能够通过理解和学习人类的语言来进行对话，还能根据聊天的上下文进行互动，真正像人类一样来聊天交流撰写邮件 视频脚本 文案 翻译 代码 写论文等任务都不在话下！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
@@ -222,8 +222,8 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    Title: "选择一个面具",
+    SubTitle: "现在开始！与面具背后的灵魂思维碰撞",
     More: "查看全部",
   },
 
