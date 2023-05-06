@@ -1,7 +1,7 @@
 import styles from "./ui-lib.module.scss";
 import LoadingIcon from "../icons/three-dots.svg";
 import CloseIcon from "../icons/close.svg";
-import EyeIcon from "../icons/eye.svg";
+import EyeIcon from "../icons/shield-keyhole-fill.svg";
 import EyeOffIcon from "../icons/wechat-fill.svg";
 
 import { createRoot } from "react-dom/client";
