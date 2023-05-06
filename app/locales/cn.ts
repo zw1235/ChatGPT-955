@@ -27,7 +27,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "高效沟通";
+      return inputHints + " 高效沟通";
     },
     Send: "发生",
     Config: {
