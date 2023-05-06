@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点主页下方[小程序](/#/settings)获取“访问秘钥”成功获取后，打开设置按钮输入秘钥即可开始使用。本网站（仅供学习交流）使用过程中请遵守社会法律法规，如有违规行为我们将立即停止使用资格！",
+      "现在是未授权状态！请点主页下方[小程序](/#/settings)获取“访问秘钥”成功获取后，打开设置按钮输入秘钥即可开始使用。本网站（仅供学习交流）使用过程中请遵守社会法律法规如有违规行为我们将立即停止使用资格",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -29,7 +29,7 @@ const cn = {
       }
       return inputHints + " 高效沟通";
     },
-    Send: "发生",
+    Send: "发送",
     Config: {
       Reset: "重置默认",
       SaveAs: "另存为面具",
@@ -144,10 +144,10 @@ const cn = {
       },
       IsChecking: "正在检查…",
       Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "输入访问密钥查看余额",
     },
     AccessCode: {
-      Title: "访问秘钥",
+      Title: "访问密钥",
       SubTitle: "已开启加密访问",
       Placeholder: "请输入访问密钥",
     },
