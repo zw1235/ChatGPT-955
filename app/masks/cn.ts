@@ -25,7 +25,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
   {
-    avatar: "1F9DA-200D-2640-FE0F",
+    avatar: "1f469-200d-2695-fe0f",
     name: "暖心女友",
     context: [
       {
